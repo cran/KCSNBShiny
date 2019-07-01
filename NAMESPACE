@@ -1,0 +1,13 @@
+exportPattern("^[[:alpha:]]+")
+export(KCSNBShiny)
+import(shiny)
+import(rhandsontable)
+import(dplyr)
+import(caret)
+import(e1071)
+  importFrom("stats", "predict")
+  importFrom("utils", "head", "read.table", "write.table")
+  importFrom("dplyr", "select")
+
+
+
